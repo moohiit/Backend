@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Full Course on Backend  with Hitesh sir",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moohiit/Backend.git"
+  },
+  "keywords": [
+    "javascript",
+    "backend",
+    "mohit"
+  ],
+  "author": "Mohit Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moohiit/Backend/issues"
+  },
+  "homepage": "https://github.com/moohiit/Backend#readme"
+}

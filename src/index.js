@@ -7,6 +7,20 @@ dotenv.config({
 })
 
 connectDB()
+  .then(() => {
+    app.listen(process.env.PORT || 8000, () => {
+      console.log("Server is running");
+
+      console.log("DB is connected");
+
+      console.log("PORT: ", process.env.PORT);
+
+      console.log("MONGODB_URI: ", process.env.MONGODB_URI);
+    })
+  })
+  .catch((err) => {
+    console.log("MONGODB Connection failed ! ",err);
+  });
 
 
 

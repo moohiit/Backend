@@ -12,7 +12,6 @@ connectDB()
   .then(() => {
     app.listen(process.env.PORT || 8000, () => {
       console.log("Server is running");
-
       console.log("Database is connected");
 
       console.log("PORT: ", process.env.PORT);
